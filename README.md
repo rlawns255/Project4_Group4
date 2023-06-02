@@ -2,7 +2,7 @@
 
 Machine Learning to predict the price of diamonds. (finance)
 
-Members: Sarkar, Indrani; Kimm, June; Pentuala, Soujanya; Atherton, Max
+Members: Sarkar, Indrani; Kimm, June; Pentyala, Soujanya; Atherton, Max
 
 1.The dataset, which I’ll be using for the diamond price prediction task with machine learning, contains data for almost 54,000 diamonds. This is a very good data set for beginners as it contains almost all the important characteristics of diamonds such as price, cut quality, carat, weight, colour, clarity, length, width, depth, etc.
 
