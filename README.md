@@ -10,6 +10,10 @@ Members: Sarkar, Indrani; Kimm, June; Pentuala, Soujanya; Atherton, Max
 
 3. Project is powered by 50K worth of different diamond data.
 
+4. We are using non-classification machine learning by using linear regression. 
+
+5. If the data is not linear as we have predicted we will using a decision tree to conduct machine learning. (Or Random Forest)
+
 Steps to finish:
 1. Project ideation --- Completed 06/01/2023
 2. Data fetching/API integration --- TBD
