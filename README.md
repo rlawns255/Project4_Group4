@@ -1,28 +1,51 @@
 # Project4_Group4
 
-Machine Learning to predict the price of diamonds. (finance)
+## Machine Learning For Diamond Price Prediction
 
-Members: Sarkar, Indrani; Kimm, June; Pentyala, Soujanya; Atherton, Max
+## Background
+In this project we will be working on a dataset containing prices of different types of diamonds and create a machine learning model that will predict the price of diamonds. We will also compare these results using Linear Regression, Decision tree Regression and Random Forest Regression metrics.
 
-1.The dataset, which I’ll be using for the diamond price prediction task with machine learning, contains data for almost 54,000 diamonds. This is a very good data set for beginners as it contains almost all the important characteristics of diamonds such as price, cut quality, carat, weight, colour, clarity, length, width, depth, etc.
+### Project Members:
+  * Pentyala, Soujanya
+  * Atherton, Max
+  * Kimm, June
+  * Sarkar, Indrani
 
-2. Uses: Pandas, numpy, sklearn, pyplot.
+### Diamond:
 
-3. Project is powered by 50K worth of different diamond data.
+Diamonds are the most prized precious stone on earth. They are also the hardest natural stone.  Diamonds are made from carbon under the extreme temperatures and pressure deep inside the earth. Volcanic activity brings them closer to surface where they are mined.  
 
-4. We are using non-classification machine learning by using linear regression. 
+### Dataset:
 
-5. If the data is not linear as we have predicted we will using a decision tree to conduct machine learning. (Or Random Forest)
+The dataset, which we will be using for the diamond price prediction task with machine learning, contains, data for almost 54,000 diamonds. It contains almost all the important characteristics of diamonds such as price, cut, quality, carat, weight, color, clarity, length, width, depth etc.
 
-Steps to finish:
-1. Project ideation --- Completed 06/01/2023
-2. Data fetching/API integration --- TBD
-3. Data analysis --- TBD
-4. Building the ML model --- TBD
-5. Testing --- TBD
-6. Creating documentation --- TBD
-7. Creating the presentation --- TBD
+### Diamond features:
+  * carat (carat weight of the diamond)
+  * cut (cut quality of the cut)
+  * color (color diamond color)
+  * clarity (clarity a measurement of how clear the diamond is)
+  * x (length in mm)
+  * y (width in mm)
+  * z (depth in mm)
+  * depth (total depth percentage = z / mean(x, y))
+  * table (width of top of diamond relative to widest point)
+
+![](./Resources/Images/diamond.png)
 
 
-Updated 6/1/2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
