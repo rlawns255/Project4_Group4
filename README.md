@@ -3,7 +3,7 @@
 ## Machine Learning For Diamond Price Prediction
 
 ## Background
-In this project we will be working on a dataset containing prices of different types of diamonds and create a machine learning model that will predict the price of diamonds. We will also compare these results using Linear Regression, Decision tree Regression and Random Forest Regression metrics.
+In this project we will be working on a dataset containing prices of different types of diamonds and create a machine learning model that will predict the price of diamonds. We will also compare these results using Linear Regression, and Random Forest Regression metrics.
 
 ### Project Members:
   * Pentyala, Soujanya
@@ -31,6 +31,34 @@ The dataset, which we will be using for the diamond price prediction task with m
   * table (width of top of diamond relative to widest point)
 
 ![](./Resources/Images/diamond.png)
+
+### Application used:
+
+  - Python - Libraries: Pandas, numpy, sklearn, matplotlib
+  - Jupyter Notebook
+  - Database - PGAdmin(PstgreSQL)
+
+### Process:
+
+First, we created the database using PGAdmin and then loaded data into the database. Next, we read the data through pandas dataframe.
+
+![](./Resources/Images/dataset.png)
+
+### Data Cleaning
+The minimum value of “x”, “y”, “z” is zero. This is incorrect, since diamonds are 3 dimensional objects. So, we need to filter out the bad data points. We also dropped unnecessary column.
+
+```Python
+df = df.drop(df[df["x"]==0].index)
+df = df.drop(df[df["y"]==0].index)
+df = df.drop(df[df["z"]==0].index)
+df.drop(columns=['Unnamed: 0'], inplace=True)
+```
+A correlation heat map was created to determine correlation strengths between columns
+
+
+
+
+
 
 
 
