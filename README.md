@@ -1,25 +1,25 @@
 # Project4_Group4
 
-## Machine Learning For Diamond Price Prediction
+## Diamond Price Prediction using Machine Learning
 
 ## Background
 In this project we will be working on a dataset containing prices of different types of diamonds and create a machine learning model that will predict the price of diamonds. We will also compare these results using Linear Regression, and Random Forest Regression metrics.
 
-### Project Members:
+## Project Members:
   * Pentyala, Soujanya
   * Atherton, Max
   * Kimm, June
   * Sarkar, Indrani
 
-### Diamond:
+## Diamond:
 
 Diamonds are the most prized precious stone on earth. They are also the hardest natural stone.  Diamonds are made from carbon under the extreme temperatures and pressure deep inside the earth. Volcanic activity brings them closer to surface where they are mined.  
 
-### Dataset:
+## Dataset:
 
 The dataset, which we will be using for the diamond price prediction task with machine learning, contains, data for almost 54,000 diamonds. It contains almost all the important characteristics of diamonds such as price, cut, quality, carat, weight, color, clarity, length, width, depth etc.
 
-### Diamond features:
+## Diamond features:
   * carat (carat weight of the diamond)
   * cut (cut quality of the cut)
   * color (color diamond color)
@@ -32,14 +32,15 @@ The dataset, which we will be using for the diamond price prediction task with m
 
 ![](./Resources/Images/diamond.png)
 
-### Application used:
+## Application used:
 
   - Python - Libraries: Pandas, numpy, sklearn, matplotlib
   - Jupyter Notebook
   - Database - PGAdmin(PstgreSQL)
 
-### Process:
+## Process:
 
+### Data Exploration
 First, we created the database using PGAdmin and then loaded data into the database. Next, we read the data through pandas dataframe.
 
 ![](./Resources/Images/dataset.png)
@@ -53,7 +54,11 @@ df = df.drop(df[df["y"]==0].index)
 df = df.drop(df[df["z"]==0].index)
 df.drop(columns=['Unnamed: 0'], inplace=True)
 ```
-A correlation heat map was created to determine correlation strengths between columns
+A correlation heat map was created to determine correlation strengths between variables. The most obvious one being, with increase in size (carat) of a Diamond, we see an increase in the price as well.
+
+<SP: insert image for Coorelation>
+ 
+ ### Convert Categorical variables to numerical values before building a ML model
 
 
 
