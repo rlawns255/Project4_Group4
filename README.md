@@ -56,9 +56,36 @@ df.drop(columns=['Unnamed: 0'], inplace=True)
 ```
 A correlation heat map was created to determine correlation strengths between variables. The most obvious one being, with increase in size (carat) of a Diamond, we see an increase in the price as well.
 
-<SP: insert image for Coorelation>
+![](./Resources/Images/heatmap.png)
  
  ### Convert Categorical variables to numerical values before building a ML model
+
+ The dataset includes 3 categorical variables (cut, color, and clarity). We used label encoding technique to convert categorical columns into numerical ones.
+
+ ### Train-test-split
+
+After pre-processing the dataset, we need to split our data into training and testing set to avoid overfitting or underfitting problems. 
+
+```Python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split (X,y,train_size=0.8,random_state=42)
+```
+## Modeling
+We have trained 2 Machine Learning models – Linear Regression and Random Forest Regressor.
+
+### Linear Regression: 
+Linear regression is used for finding a linear relationship between the target and one or more predictors.
+
+Output: 
+
+### Random Forest:
+The Random Forest algorithm includes randomly sampling our data and randomly selecting variables/features from our dataset for each tree. Once the forest has been built, we take the average of all of the predictions to make the final output value. 
+
+Output:
+
+### Summary
+
+
 
 
 
