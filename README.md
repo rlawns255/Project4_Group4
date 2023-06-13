@@ -76,16 +76,17 @@ We have trained 2 Machine Learning models – Linear Regression and Random Fores
 ### Linear Regression: 
 Linear regression is used for finding a linear relationship between the target and one or more predictors.
 
-Output: 
+![](./Resources/Images/LinearRResult.png)
 
 ### Random Forest:
 The Random Forest algorithm includes randomly sampling our data and randomly selecting variables/features from our dataset for each tree. Once the forest has been built, we take the average of all of the predictions to make the final output value. 
 
-Output:
+![](./Resources/Images/RandomFResult(1).png)
+![](./Resources/Images/RandomResult(2).png)
 
 ### Summary
 
-
+![](./Resources/Images/FinalResults.png)
 
 
 
